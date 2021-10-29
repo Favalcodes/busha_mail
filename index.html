@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+
+    <title>Busha</title>
+
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+        height: auto;
+        background: #fff;
+        font-size: 18px;
+    }
+    .header{
+        width: 100%;
+        margin-top: 4%;
+        padding: 20px 10%;
+    }
+    .logo{
+        width: 110px;
+        height: 30px;
+    }
+    .title{
+        padding: 20px 10%;
+        width: 100%;
+    }
+    .title h3{
+        font-size: 32px;
+        color: rgb(6, 196, 47);
+        font-weight: 700;
+    }
+    .main{
+        line-height: 40px;
+        font-weight: 500;
+        color: #1d1d1d;
+        padding: 0 10%;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    p.msg{
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+    .code{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    hr{
+        border: 1px solid #f1f1f1;
+    }
+    .question{
+        margin: 30px 0;
+        line-height: 25px;
+    }
+    .link{
+        color: rgb(6, 196, 47);
+        text-decoration: none;
+    }
+    .link:hover{
+        color: rgb(6, 196, 47);
+        text-decoration: none;
+    }
+    .footer{
+        background: #f1f1f1;
+        padding: 28px 10%;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .address{
+        width: 50%;
+        height: 100%;
+        color: #9b9b9b;
+    }
+    .address p{
+        width: 60%;
+    }
+    .social{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: flex-end;
+        padding: 25px 0;
+    }
+    .social-link{
+        color: #1d1d1d;
+    }
+
+    @media (max-width: 480px){
+        .address{
+            width: 70%;
+            height: 100%;
+            color: #9b9b9b;
+        }
+        .address p{
+            width: 100%;
+        }
+
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+        .address{
+            width: 70%;
+            height: 100%;
+            color: #9b9b9b;
+        }
+        .address p{
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="header">
+        <img src="https://res.cloudinary.com/favalcodes/image/upload/v1635513328/busha_logo_zymip5.png" alt="logo" class="logo">
+    </div>
+    <div class="title">
+        <h3>Confirm your email address</h3>
+    </div>
+    <div class="main">
+        <p>Hi Tobi, <br>
+        <p class="msg">Please enter the six digit code below to verify your email address</p>
+        <span class="code">12345</span><br>
+        Thanks,<br>
+        The Busha Team,</p>
+        <hr>
+        <p class="question">Don't recognize this activity? <a href="#" class="link">Lock your account immediately</a></p>
+    </div>
+    <div class="footer">
+        <div class="flex">
+            <div class="address">
+                <p>Unit 2, Alma 2 Richmond Gate Estate. Off Meadow Hallway, Ikate</p>
+                <p>&copy;2021 Busha Digital Limited</p>
+            </div>
+            <div class="social">
+                <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
